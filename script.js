@@ -7,7 +7,6 @@ var button = document.querySelector('button');
 function setGradientBackground() {
   body.style.background =
     'linear-gradient(to right, ' + color1.value + ', ' + color2.value + ')';
-
   css.textContent = body.style.background + ';';
 }
 
