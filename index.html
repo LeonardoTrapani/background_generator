@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Gradient Background</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body id="gradient">
-	<h1>Background Generator</h1>
-	<input class="color1" type="color" name="color1" value="#ffffff">
-	<input class="color2" type="color" name="color2" value="#9fc997">
-	<h2>Current CSS Background</h2>
-	<h3></h3>
-    <button class="button-4" role="button">Create random background</button>
-	<script type="text/javascript" src="script.js"></script>
-</body>
+  <head>
+    <title>Background Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body id="gradient">
+    <div class="center-flex">
+      <h1>Background Generator</h1>
+      <div class="row">
+        <input class="color1" type="color" name="color1" value="#ffffff" />
+        <input class="color2" type="color" name="color2" value="#9fc997" />
+      </div>
+      <h2>Current CSS Background</h2>
+      <h3 id="fill"></h3>
+      <button class="button-4" role="button">Generate random background</button>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
 </html>
